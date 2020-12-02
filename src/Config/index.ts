@@ -3,7 +3,6 @@ export default
     port: process.env.PORT || 3001,
     database: {
         URI: process.env.MONGODB_URI || 'mongodb://localhost/ecarta',
-        //URI: process.env.MONGODB_URI || 'mongodb+srv://dev-ecarta:DfTUZySf61yywiiF@ecarta0.fvlhb.mongodb.net/dev-ecarta?retryWrites=true&w=majority',
         USER: process.env.MONGODB_USER,
         PASSWORD: process.env.MONGODB_PASSWORD
       },
